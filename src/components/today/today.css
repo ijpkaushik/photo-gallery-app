@@ -1,0 +1,43 @@
+.today {
+	display: flex;
+	flex-direction: row;
+
+	/* background-color: aqua; */
+
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	margin: auto;
+	padding: 1rem 0rem;
+	max-width: 1500px;
+}
+/* .title{
+} */
+
+.todayHeading {
+	color: #2e8bff;
+	font-size: 3.5rem;
+	letter-spacing: 0rem;
+}
+
+.todayDate {
+	color: #6f7378;
+	padding: 1rem 0rem;
+	white-space: nowrap;
+}
+
+.images {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: flex-start;
+
+	/* background-color: chartreuse; */
+}
+
+@media only screen and (max-width: 500px) {
+	.today {
+		flex-direction: column;
+	}
+}
